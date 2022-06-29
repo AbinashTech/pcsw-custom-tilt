@@ -1,0 +1,1 @@
+24-12-2020 01:07:39 PM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\suba\Project Back-Up\CD\Tilt Switch System\Source Code\Tilt_Switch_System Ver1.0\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.

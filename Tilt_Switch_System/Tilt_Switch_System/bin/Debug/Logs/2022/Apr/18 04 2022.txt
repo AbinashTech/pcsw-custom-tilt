@@ -1,0 +1,4 @@
+04-18-2022 15:14:17-ViewMain - AvailInfo()-Could not find a part of the path 'D:\suba\Project Back-Up\CD\Tilt Switch System\Source Code\Tilt_Switch_System Ver1.0\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+04-18-2022 15:14:20-SettingScreen - AvailInfo()-Could not find a part of the path 'D:\suba\Project Back-Up\CD\Tilt Switch System\Source Code\Tilt_Switch_System Ver1.0\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+04-18-2022 15:14:40-ViewMain - AvailInfo()-Could not find a part of the path 'D:\suba\Project Back-Up\CD\Tilt Switch System\Source Code\Tilt_Switch_System Ver1.0\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+04-18-2022 15:14:49-SettingScreen - AvailInfo()-Could not find a part of the path 'D:\suba\Project Back-Up\CD\Tilt Switch System\Source Code\Tilt_Switch_System Ver1.0\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.

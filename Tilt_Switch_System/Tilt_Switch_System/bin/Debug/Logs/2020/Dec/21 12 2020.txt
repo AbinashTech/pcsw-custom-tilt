@@ -1,0 +1,8 @@
+21-12-2020 11:15:19 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:15:34 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:17:36 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:22:45 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:24:40 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:25:11 AM-SettingScreen - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:28:52 AM-ViewMain - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
+21-12-2020 11:28:55 AM-SettingScreen - AvailInfo()-Could not find a part of the path 'D:\Swathi\_Working\Tilt_Switch_System - Copy\Tilt_Switch_System\bin\Debug\logoimage\leftlogo\Empty.jpg'.
