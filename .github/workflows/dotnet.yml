@@ -1,23 +1,32 @@
-name: .NET
-
+name: "DotnetBuild"
+# Controls when the workflow will run
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main,develop/ts-sdk,release/ts-sdk ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main,develop/ts-sdk,release/ts-sdk ]
+env:
+  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln'
+  
 
 jobs:
-  build:
-
-    runs-on: windows-latest
-
+  deploy:
+    name: 'Deploy'
+    runs-on: 'windows-latest'
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+    - name: 'Checkout'
+      uses: actions/checkout@v2
+
+    - name: 'Install dotnet'
+      uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+        dotnet-version: '5.0.x'
+
+    - name: 'Restore packages'
+      run: dotnet restore ${{ env.PROJECT_PATH }}
+
+    - name: 'Build project'
+      run: dotnet build ${{ env.PROJECT_PATH }} 
+    - name: 'Get Version'
+      id: version
+      uses: battila7/get-version-action@v2
