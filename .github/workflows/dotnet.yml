@@ -19,15 +19,9 @@ jobs:
       with:
         dotnet-version: 3.1.x
 
-    - name: Install dependencies
-      run: dotnet restore Tilt_Switch_System.sln
-
     - name: Build
       run: dotnet build Tilt_Switch_System.sln --configuration Release --no-restore
 
     
 
-    - name: Publish Code Coverage
-      run: bash <(curl -s https://codecov.io/bash)
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
