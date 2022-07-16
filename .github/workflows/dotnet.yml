@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
 env:
-  PROJECT_PATH: 'cp_tiltswitch_hidromas/Tilt_Switch_System.sln'
+  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln'
   
 
 jobs:
