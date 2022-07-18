@@ -5,7 +5,7 @@ on:
      branches:   [main]
 
 env:
-  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln.sln'
+  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln'
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 
