@@ -1,12 +1,13 @@
-name: "DotnetBuild"
-# Controls when the workflow will run
+name: "Deploy to NuGet"
+
 on:
   push:
-    branches: [ main ]
-  
+     branches:   [main]
+
 env:
-  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln'
-  
+  PROJECT_PATH: 'Tilt_Switch_System/Tilt_Switch_System.sln.sln'
+  PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
+  NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 
 jobs:
   deploy:
@@ -25,7 +26,10 @@ jobs:
       run: dotnet restore ${{ env.PROJECT_PATH }}
 
     - name: 'Build project'
-      run: dotnet build ${{ env.PROJECT_PATH }} 
+      run: dotnet build ${{ env.PROJECT_PATH }} --no-restore --configuration Release
+
     - name: 'Get Version'
       id: version
       uses: battila7/get-version-action@v2
+
+    
